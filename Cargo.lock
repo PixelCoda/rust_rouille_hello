@@ -193,6 +193,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "hello"
+version = "0.1.0"
+dependencies = [
+ "rouille",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.1.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -460,13 +467,6 @@ dependencies = [
  "time",
  "tiny_http",
  "url",
-]
-
-[[package]]
-name = "rust_rouille_docker_sample"
-version = "0.1.0"
-dependencies = [
- "rouille",
 ]
 
 [[package]]
